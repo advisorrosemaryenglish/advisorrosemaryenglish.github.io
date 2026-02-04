@@ -1,18 +1,21 @@
 :root {
-  --bg-dark: #0b0a08;
-  --bg-charcoal: #14110d;
+  --bg-black: #0b0a08;
   --ivory: #e9dcc1;
   --champagne: #e6d3a3;
   --gold-accent: #c9a45c;
-  --gold-soft: rgba(201,164,92,0.35);
+  --gold-soft: rgba(201,164,92,0.25);
 }
 
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top, rgba(201,164,92,0.15), transparent 55%),
-    linear-gradient(180deg, var(--bg-charcoal), var(--bg-dark));
-  color: var(--ivory);
+    radial-gradient(
+      circle at top,
+      rgba(201,164,92,0.12),
+      rgba(11,10,8,0.95) 45%
+    ),
+    #0b0a08;
+  color: #e9dcc1;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -24,7 +27,7 @@ body {
 .logo {
   max-width: 110px;
   margin-bottom: 18px;
-  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.7));
+  background: var(--bg-black);
 }
 
 h1, h2, h3, h4 {
@@ -78,7 +81,7 @@ p {
 .section h3::after {
   content: '';
   display: block;
-  width: 60px;
+  width: 64px;
   height: 1px;
   margin: 18px auto 0;
   background: linear-gradient(
@@ -87,7 +90,7 @@ p {
     var(--gold-accent),
     transparent
   );
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .headshot {
@@ -97,11 +100,11 @@ p {
 }
 
 .card {
-  background: rgba(255,255,255,0.03);
+  background: rgba(255,255,255,0.025);
   padding: 32px;
   margin-bottom: 40px;
   border: 1px solid var(--gold-soft);
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.6) inset;
+  box-shadow: none;
   text-align: left;
 }
 
