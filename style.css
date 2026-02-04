@@ -12,17 +12,24 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
   background:
     radial-gradient(
-      circle at top,
-      rgba(201,164,92,0.12),
-      rgba(11,10,8,0.95) 45%
+      ellipse at top,
+      rgba(201,164,92,0.12) 0%,
+      rgba(18,18,18,0.85) 35%,
+      rgba(11,10,8,0.98) 75%
     ),
-    #0b0a08;
-  color: #e9dcc1;
+    linear-gradient(
+      180deg,
+      #1a1a1a 0%,
+      #0b0a08 100%
+    );
+  color: var(--ivory);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
 
 .hero {
   padding: 80px 20px 40px;
@@ -82,6 +89,9 @@ p {
 }
 .nav-tabs a:hover {
   opacity: 1;
+}
+.nav-tabs {
+  display: none;
 }
 
 .nav-tabs a::after {
@@ -153,11 +163,63 @@ p {
   background: var(--gold-accent);
   opacity: 0.35;
 }
+.elegant-divider {
+  width: 120px;
+  height: 1px;
+  margin: 26px auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-accent),
+    transparent
+  );
+  opacity: 0.6;
+}
 
 .headshot {
-  width: 260px;
-  border-radius: 6px;
-  margin-bottom: 30px;
+  width: 340px;
+  max-width: 90%;
+  border-radius: 4px;
+  margin: 28px auto 36px;
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.6);
+}
+.elegant-divider {
+  width: 120px;
+  height: 1px;
+  margin: 26px auto;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-accent),
+    transparent
+  );
+  opacity: 0.6;
+}
+
+.service-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.service-buttons a {
+  display: inline-block;
+  padding: 18px 24px;
+  border: 1px solid var(--gold-accent);
+  color: var(--champagne);
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: all 0.35s ease;
+  background: rgba(0,0,0,0.25);
+}
+
+.service-buttons a:hover {
+  background: rgba(201,164,92,0.08);
+  box-shadow: 0 0 0 1px rgba(201,164,92,0.4);
 }
 
 .card {
