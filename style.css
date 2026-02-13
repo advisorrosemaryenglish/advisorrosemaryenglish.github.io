@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: #000000; /* Brand Black */
+  color: #F5F5F5;
+  font-family: Georgia, serif;
+}
+
+.wrapper {
+  max-width: 1150px;
+  margin: auto;
+  padding: 80px 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 380px;
+  margin-bottom: 30px;
+}
+
+.tagline {
+  color: #D8A06A; /* Text Gold */
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 90px;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+}
+
+.headshot {
+  width: 280px;
+  border-radius: 6px;
+  box-shadow: 0 0 40px rgba(224,168,92,0.15); /* Gold glow */
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  color: #D8A06A;
+  line-height: 1.7;
+}
+
+.about-text h2 {
+  color: #F2D27A; /* Highlight Gold */
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 40px;
+  border: 1px solid #E0A85C; /* Primary Gold */
+  color: #E0A85C;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #E0A85C;
+  color: #000000;
+}
