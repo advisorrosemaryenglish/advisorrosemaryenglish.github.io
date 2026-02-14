@@ -8,8 +8,8 @@
 /* ===== Page Background ===== */
 body {
     font-family: "Georgia", serif;
-    background-color: #151311;   /* deep charcoal brown to match logo */
-    color: #f4efe6;              /* soft ivory */
+    background: linear-gradient(to bottom, #14100d, #0b0907);
+    color: #f4efe6;
     padding: 60px 20px;
 }
 
