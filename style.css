@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background: #000;
+    color: #d4af37;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+/* HERO SECTION */
+
+.hero {
+    padding: 60px 20px 30px;
+    border-bottom: 1px solid #8c6b2f;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #c9a96a;
+}
+
+/* ADVISORY SECTION */
+
+.advisory {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background: #111;
+    border: 1px solid #8c6b2f;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.headshot {
+    width: 240px;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.7;
+    color: #e6d3a3;
+    max-width: 600px;
+    margin: 20px auto 40px;
+}
+
+/* BUTTON */
+
+.cta-button {
+    display: inline-block;
+    padding: 14px 28px;
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.cta-button:hover {
+    background: #d4af37;
+    color: black;
+}
+
+.cta-sub {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #bfa76a;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 12px;
+    color: #777;
+}
