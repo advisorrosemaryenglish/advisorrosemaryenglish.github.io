@@ -1,83 +1,46 @@
 body {
-  margin: 0;
-  background-color: #000000; /* Brand Black */
-  color: #F5F5F5;
-  font-family: Georgia, serif;
+    font-family: "Georgia", serif;
+    background-color: #f5f3ef;
+    margin: 0;
+    padding: 40px;
+    color: #2e2e2e;
 }
 
+/* Center Content */
 .wrapper {
-  max-width: 1150px;
-  margin: auto;
-  padding: 80px 30px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
-.center {
-  text-align: center;
-}
-
+/* Logo Styling */
 .logo {
-  max-width: 380px;
-  margin-bottom: 30px;
+    width: 320px;
+    margin-bottom: 30px;
 }
 
-.tagline {
-  color: #D8A06A; /* Text Gold */
-  font-size: 22px;
-  letter-spacing: 1px;
-  margin-bottom: 90px;
-}
-
+/* About Section */
 .about-section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 60px;
-  margin-bottom: 100px;
-}
-
-.headshot {
-  width: 380px;
-  max-width: 90%;
-  border-radius: 8px;
-  margin-top: 50px;
-  box-shadow: 0 0 40px rgba(224,168,92,0.15);
-}
-
-.about-section {
-  max-width: 750px;
-  margin: 40px auto;
-  text-align: center;
-  line-height: 1.7;
-  color: #D8A06A;
+    margin-bottom: 40px;
 }
 
 .about-section h2 {
-  color: #F2D27A;
-  font-weight: normal;
-  margin-bottom: 20px;
-  font-size: 28px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.button-container {
-  text-align: center;
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 20px;
 }
 
-.button {
-  display: inline-block;
-  padding: 16px 40px;
-  border: 1px solid #E0A85C; /* Primary Gold */
-  color: #E0A85C;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-  font-size: 14px;
+/* Headshot Styling */
+.headshot {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
-
-.button:hover {
-  background-color: #E0A85C;
-  color: #000000;
-}
-
-</body>
-</html>
-
