@@ -146,8 +146,8 @@ body {
     font-size: 23px;
     font-weight: 600;
     margin-top: 20px;
-    text-align: center;
-    padding: 0 15px;
+    text-align: left;
+    padding: 0;
 }
 
 .label {
