@@ -137,10 +137,16 @@ body {
 
 /* RIGHT SIDE IMAGE */
 
+.right-column {
+    flex: 1.1;   /* slightly more space than left column */
+    display: flex;
+    justify-content: center;
+}
+
 .right-column img {
-    width: 520px;
-    max-width: 100%;
-    border-radius: 14px;
+    width: 100%;
+    max-width: 650px;   /* increase from 520 */
+    border-radius: 16px;
 }
 
 /* =========================
