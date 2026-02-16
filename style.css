@@ -188,11 +188,11 @@ body {
 
 @media (max-width: 900px) {
 
-   .main-headline {
-    font-size: 34px;
+ .main-headline {
+    font-size: 32px;         
     line-height: 1.25;
-    white-space: normal;
-    padding: 0 20px;
+    letter-spacing: 0.5px;   
+    padding: 0 24px;          
     max-width: 100%;
 }
     
