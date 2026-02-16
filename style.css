@@ -137,25 +137,9 @@ body {
 
 /* RIGHT SIDE IMAGE */
 
-.right-column {
-    position: relative;
-}
-
-.right-column::before {
-    content: "";
-    position: absolute;
-    width: 420px;
-    height: 420px;
-    background: radial-gradient(circle, rgba(216,163,157,0.25) 0%, transparent 70%);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
 .right-column img {
-    max-width: 470px;
-    width: 100%;
+    width: 450px;
+    max-width: 100%;
     border-radius: 14px;
 }
 
@@ -182,10 +166,5 @@ body {
 
     .services {
         grid-template-columns: 1fr;
-    }
-
-    .right-column img {
-        margin-top: 40px;
-        max-width: 420px;
     }
 }
