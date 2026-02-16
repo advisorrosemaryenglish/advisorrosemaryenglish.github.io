@@ -112,9 +112,16 @@ body {
 /* CONTACT */
 
 .contact {
-    font-size: 23px;     /* was 22 */
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 600;
     margin-top: 20px;
+}
+
+.label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 8px;
+    color: #cccf79;
 }
 
 .contact p {
