@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1300px; /* slightly wider so headline fits one line */
+    max-width: 1600px; /* slightly wider so headline fits one line */
     margin: auto;
 }
 
