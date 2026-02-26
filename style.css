@@ -175,21 +175,26 @@ body {
     justify-content: center;
 }
 
+/* RIGHT SIDE VIDEO */
+
+.right-column {
+    flex: 1.1;
+    display: flex;
+    justify-content: center;
+}
+
 .video-wrapper {
-    width: 100%;
-    max-width: 480px;   /* slightly narrower for elegance */
-    margin: 0 auto;
+    width: 420px;          /* matches elegant portrait size */
+    height: 520px;         /* same height your image had */
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 30px 60px rgba(0,0,0,0.45);
 }
 
 .video-wrapper iframe {
-    transform: translateY(-20px);
     width: 100%;
-    aspect-ratio: 9 / 16;   /* keeps it vertical cleanly */
+    height: 100%;
     border: none;
-    display: block;
 }
 
 /* =========================
