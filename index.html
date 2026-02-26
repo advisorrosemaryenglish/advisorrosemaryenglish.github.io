@@ -35,23 +35,49 @@
               secure retirement income solutions.
             </p>
 
-            <div class="services">
-                <div class="card">
-                    <h4>Workforce Stability Blueprint™</h4>
-                </div>
+           <div class="services">
 
-                <div class="card">
-                    <h4>Lifestyle Protection Blueprint™</h4>
-                </div>
+    <div class="card" onclick="toggleCard(this)">
+        <h4>Workforce Stability Blueprint™</h4>
+        <div class="card-content">
+            <p>
+                Strategic retention planning designed to reduce turnover, strengthen morale, 
+                and create a resilient workforce culture that supports long-term organizational growth.
+            </p>
+        </div>
+    </div>
 
-                <div class="card">
-                    <h4>Reduce Business Expenses</h4>
-                </div>
+    <div class="card" onclick="toggleCard(this)">
+        <h4>Lifestyle Protection Blueprint™</h4>
+        <div class="card-content">
+            <p>
+                Integrated financial and protection strategies that safeguard income, preserve lifestyle, 
+                and create stability through every stage of life and career.
+            </p>
+        </div>
+    </div>
 
-                <div class="card">
-                    <h4>Retirement Income Protection</h4>
-                </div>
-            </div>
+    <div class="card" onclick="toggleCard(this)">
+        <h4>Reduce Business Expenses</h4>
+        <div class="card-content">
+            <p>
+                Targeted cost-containment strategies that identify inefficiencies, optimize benefit 
+                structures, and improve financial performance without sacrificing employee wellbeing.
+            </p>
+        </div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+        <h4>Retirement Income Protection</h4>
+        <div class="card-content">
+            <p>
+                Forward-thinking income planning that protects retirement assets, minimizes risk 
+                exposure, and ensures dependable income streams for long-term security.
+            </p>
+        </div>
+    </div>
+
+</div>
 <div class="cta-wrapper">
     <a href="mailto:advisorrosemaryenglish@gmail.com" class="cta-button">
         Schedule a Strategy Conversation
@@ -76,5 +102,9 @@
 </section>
 
 
-
+<script>
+function toggleCard(card) {
+    card.classList.toggle("active");
+}
+</script>
 </body></html>
