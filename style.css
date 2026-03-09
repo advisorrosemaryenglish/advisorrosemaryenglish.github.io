@@ -199,29 +199,30 @@ border-radius:8px;
 
 @media (max-width: 900px) {
 
- .main-headline {
-    line-height: 1.25;
-    letter-spacing: 0.5px;   
-    padding: 0 24px;          
-    max-width: 100%;
+.main-headline{
+line-height:1.25;
+letter-spacing:0.5px;
+padding:0 24px;
+max-width:100%;
 }
-    
-    .content-row {
-        flex-direction: column;
-        align-items: center;
-        align: center;
-    }
 
-    .left-column {
-        max-width: 100%;
-    }
-
-    .services {
-        grid-template-columns: 1fr;
-    }
-    
-  .video-wrapper {
-    margin-top: 40px;
-    max-width: 420px;
+.content-row{
+flex-direction:column;
+align-items:center;
 }
+
+.left-column{
+max-width:100%;
+}
+
+.services{
+flex-direction:column;
+}
+
+.video-wrapper{
+margin-top:40px;
+width:100%;
+max-width:420px;
+}
+
 }
