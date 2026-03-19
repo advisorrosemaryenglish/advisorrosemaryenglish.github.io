@@ -171,11 +171,12 @@ transition:.3s;
 }
 
 .contact .label {
-  min-width: 120px;
+  min-width: 180px;
+  display: inline-block;
 }
 
 .contact .value {
-  line-height: 1.5;
+  padding-left: 10px;
 }
 
 .contact p {
