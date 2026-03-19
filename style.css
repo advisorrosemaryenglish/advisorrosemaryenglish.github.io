@@ -164,13 +164,17 @@ transition:.3s;
     padding: 0;
 }
 
-.address-line {
+.contact-row {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  margin-bottom: 12px;
 }
 
-.address-text {
+.contact .label {
+  min-width: 120px;
+}
+
+.contact .value {
   line-height: 1.5;
 }
 
