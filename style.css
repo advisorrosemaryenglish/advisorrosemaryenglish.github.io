@@ -40,10 +40,13 @@ body {
 
 /* PARAGRAPH */
 .full-width {
-    max-width: 900px;
-    margin-bottom: 50px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 60px auto;
     font-size: 22px;
-    line-height: 1.7;
+    line-height: 1.8;
+    text-align: center;
+    padding: 0 40px;
 }
 
 /* LAYOUT */
@@ -56,6 +59,9 @@ body {
 /* LEFT */
 .left-column {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* CARDS */
@@ -77,7 +83,8 @@ body {
 
 /* BUTTON */
 .cta-wrapper {
-    margin: 20px 0;
+    margin: 30px 0;
+    text-align: center;
 }
 
 .cta-button {
@@ -91,18 +98,22 @@ body {
 
 /* CONTACT */
 .contact {
-    margin-top: 20px;
+    margin-top: 25px;
     color: #e3b2a6;
+    text-align: center;
 }
 
 .contact-row {
     display: flex;
-    gap: 12px;
-    margin-bottom: 10px;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
 }
 
 .label {
-    min-width: 110px;
+    min-width: auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .value {
@@ -132,8 +143,12 @@ body {
         flex-direction: column;
     }
 
-    .contact-row {
-        flex-direction: column;
-    }
+   .contact-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
 
 }
