@@ -168,9 +168,8 @@ transition:.3s;
     color: #e3b2a6;
     font-weight: 600;
     letter-spacing: 1px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .label {
@@ -236,8 +235,8 @@ align-items:center;
 max-width:100%;
 }
 
-.services{
-flex-direction:column;
+.services {
+    grid-template-columns: 1fr;
 }
 
 .video-wrapper{
