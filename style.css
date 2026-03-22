@@ -122,6 +122,7 @@ body {
     width: 100%;
     max-width: 520px;   /* 👈 same width as cards */
     margin: 0;           /* remove any auto centering */
+    align-self: flex-start;
 }
 
 .contact-row {
