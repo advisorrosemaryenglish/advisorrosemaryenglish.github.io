@@ -90,17 +90,17 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;   /* centers the whole group */
-    gap: 12px;
+    align-items: flex-start;   /* 👈 Change from 'center' to 'flex-start' */
+    gap: 20px;
     width: 100%;
+    max-width: 520px;          /* Matches your service cards width */
 }
 
 /* CTA */
-.cta-wrapper {
+cta-wrapper {
     margin: 15px 0;
-    text-align: center;
+    text-align: left;          /* 👈 Align the button to the left */
     width: 100%;
-    max-width: 520px;   /* 👈 MATCHES cards */
 }
 
 .cta-button {
@@ -118,17 +118,16 @@ body {
 /* CONTACT */
 .contact {
     color: #e3b2a6;
-    text-align: center;   
+    text-align: left;          /* 👈 Align text to the left */
     width: 100%;
-    max-width: 520px;   /* 👈 same width as cards */
-    align-self: flex-start;
 }
 
 .contact-row {
     display: grid;
-    grid-template-columns: 120px 1fr; /* 👈 PERFECT alignment */
+    grid-template-columns: 80px 1fr; /* 👈 Adjusted width for labels like 'ADDRESS:' */
     gap: 10px;
     align-items: start;
+    margin-bottom: 10px;
 }
 
 .address {
@@ -198,7 +197,7 @@ body {
         width: 100%;
         max-width: 520px;   /* match the CTA button width */
         margin: 0;          /* align flush with button */
-        text-align: left;
+        text-align: center;
     }
 
      .contact-row {
