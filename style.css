@@ -55,6 +55,7 @@ body {
     gap: 50px;
     align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: nowrap; /* 👈 forces columns to stay side-by-side */
 }
 
 /* LEFT */
