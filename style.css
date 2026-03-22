@@ -135,6 +135,7 @@ body {
 .right-column {
     flex: 1;
     min-width: 350px;
+    max-width: 500px;
 }
 
 .video-wrapper iframe {
