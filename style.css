@@ -56,7 +56,6 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    min-width: 0;
     align-items: center;
 }
 
@@ -64,9 +63,8 @@ body {
 .services {
     display: flex;
     gap: 20px;
-    margin-bottom: 20px;
-     width: 100%;          /* 👈 important */
-    max-width: 500px;     /* 👈 controls card group width */
+    width: 100%;
+    max-width: 520px;
 }
 
 .card {
@@ -102,7 +100,7 @@ body {
     margin: 15px 0;
     text-align: center;
     width: 100%;
-    max-width: 500px;   /* 👈 MATCHES cards */
+    max-width: 520px;   /* 👈 MATCHES cards */
 }
 
 .cta-button {
@@ -122,7 +120,7 @@ body {
     color: #e3b2a6;
     text-align: left;   /* 👈 IMPORTANT: restores original alignment */
     width: 100%;
-    max-width: 500px;   /* 👈 same width as cards */
+    max-width: 520px;   /* 👈 same width as cards */
 }
 
 .contact-row {
@@ -130,6 +128,11 @@ body {
     grid-template-columns: 120px 1fr; /* 👈 PERFECT alignment */
     gap: 10px;
     align-items: start;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
 }
 
 .content-row {
