@@ -56,7 +56,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+     align-items: flex-start;
 }
 
 /* CARDS */
@@ -135,9 +135,10 @@ body {
 
 .content-row {
     display: flex;
-    gap: 100px;
-    align-items: stretch;   /* KEY FIX */
-    justify-content: space-between;
+    gap: 40px;              /* 👈 Reduced from 100px to keep things tighter */
+    align-items: flex-start; 
+    justify-content: center; /* 👈 Centers the two main columns on the screen */
+    width: 100%;
 }
 
 .label {
