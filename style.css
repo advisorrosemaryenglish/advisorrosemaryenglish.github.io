@@ -176,14 +176,16 @@ body {
 }
 
 .label {
-    font-weight: 700;
+    font-weight: 800;      /* Makes labels extra bold */
     font-size: 14px;
     text-transform: uppercase;
+    color: #e3b2a6;       /* Keeps labels peach */
 }
 
 .value {
     line-height: 1.6;
-    color: #e3b2a6; /* This makes the white text peach */
+    color: #e3b2a6;       /* Changes the white text back to peach */
+    font-weight: 500;      /* Optional: makes the info slightly easier to read */
 }
 
 .address {
