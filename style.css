@@ -53,7 +53,7 @@ body {
 
 /* LEFT */
 .left-column {
-    flex: 1;
+    flex: 0 0 540px;
     display: flex;
     flex-direction: column;
      align-items: flex-start;
@@ -64,7 +64,7 @@ body {
     display: flex;
     gap: 20px;
     width: 100%;
-    max-width: 520px;
+    margin-bottom: 50px; 
 }
 
 .card {
@@ -87,10 +87,10 @@ body {
 
 /* CTA + CONTACT GROUP */
 .cta-contact-group {
-    margin-top: 50px;        /* Spacing below the cards */
+    margin-bottom;        /* Spacing below the cards */
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -102,8 +102,10 @@ body {
 }
 
 .cta-wrapper {
-    margin-bottom: 35px;      /* 👈 Increased spacing between button and Address */
+    margin-bottom: 45px;     /* 👈 More room between button and Address title */
+    text-align: left;
 }
+
 
 
 .cta-button {
@@ -120,11 +122,13 @@ body {
 /* CONTACT */
 .contact {
     color: #e3b2a6;
+    text-align: left;
+    width: 100%;
 }
 
 .contact-row {
     display: grid;
-    grid-template-columns: 85px 1fr; /* 👈 Uniform label width for vertical alignment */
+    grid-template-columns: 90px 1fr; /* 👈 Uniform label width for vertical alignment */
     gap: 10px;
     margin-bottom: 12px;      /* Space between Address, Email, Phone */
 }
@@ -136,7 +140,7 @@ body {
 
 .content-row {
     display: flex;
-    gap: 40px;               /* Space between your info and the video */
+    gap: 60px;               /* Space between your info and the video */
     align-items: stretch;    /* 👈 Keeps the video the same height as your text */
     justify-content: center; /* Centers the two main columns on the screen */
     width: 100%;
@@ -171,7 +175,7 @@ body {
     height: 100%;              /* MATCH HEIGHT */
     border-radius: 10px;
     border: none;
-    object-fit: cover; 
+    min-height: 400px;  
 }
 
 /* MOBILE */
